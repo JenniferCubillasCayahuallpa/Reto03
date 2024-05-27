@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ flex-direction: column;
+ height: 150vh;
+ color: rgb(0, 0, 0);
+ background-image: linear-gradient(
+     0deg,
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)
+ ) 
+ ,url("./img/griffin-quinn-DKpQT3trKn4-unsplash.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;   
+}
+.bienvenidos{
+    margin: 30px;
+    padding: 50px;
+}
+nav{
+    padding: 10px;
+    background-color:transparent;
+    border-bottom: 0px solid transparent;
+    top:0;
+    text-align: center; 
+    position: fixed;
+    float: right;
+    display: flex;
+    margin: 20px;
+}
+nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    float: right;
+    margin: 10px;
+    transition: 0.2s ease-in-out;
+    list-style:none;
+}
+nav  a:hover{
+    color: rgb(133, 133, 133);
+}
+nav li a{
+    list-style: none;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    display:flex;
+    justify-content: center;
+}
+p{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    text-align:justify-content;
+    margin: 10px;
+}
+.image img{
+ margin: 20px;
+ width: 280px;
+ height: 150px;
+ box-shadow:10px 10px 1px rgb(227, 227, 227);
+}
+.product{
+    display: flex;
+    flex-direction:column;
+    background-color:rgb(21, 21, 21)transparent;
+    width: 900px;
+    margin: 20px;
+}
+button{
+    color: aliceblue;
+    background-color: cornflowerblue;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+button:hover{
+    background-color: brown;
+}
+
+footer{
+    background-color: black;
+}
+.li{
+    color: aliceblue;
+}
